@@ -1,6 +1,17 @@
 import { motion } from 'framer-motion';
 import Section from './Section';
-import { Briefcase, Activity, Code, GraduationCap, MapPin } from 'lucide-react';
+import { 
+  Briefcase, 
+  Activity, 
+  Code, 
+  GraduationCap, 
+  Users, 
+  Megaphone, 
+  Rocket, 
+  Map, 
+  Calculator, 
+  Trophy 
+} from 'lucide-react';
 
 const experiences = [
   {
@@ -29,7 +40,46 @@ const experiences = [
     icon: <Briefcase className="text-accent-teal" size={24} />,
     achievements: [
       'Executed end-to-end dataset cleaning and equity research data analysis using BLS and SBA datasets to surface actionable economic insights.',
-      "Mentored by MIT Master's in Data Science grad, applying graduate-level analytical frameworks to real-world research projects."
+      "Mentored by Ng Kai Ming (MIT, Master's in Data Science), applying graduate-level analytical frameworks to real-world research projects."
+    ]
+  },
+  {
+    role: 'Outreach Officer',
+    company: 'ThinkFinance',
+    date: 'Apr 2026 – Present',
+    icon: <Users className="text-accent-blue" size={24} />,
+    achievements: [
+      'Drove external partnership and stakeholder outreach initiatives to expand organizational visibility within the finance education sector.'
+    ]
+  },
+  {
+    role: 'Marketing Intern',
+    company: 'Mind4Youth',
+    date: 'Apr 2026 – Present',
+    icon: <Megaphone className="text-accent-teal" size={24} />,
+    achievements: [
+      'Designed and executed multi-channel marketing campaigns across social media, print, and presentations, increasing organizational engagement.',
+      'Developed data-driven user engagement strategies and produced high-quality content to grow the organization\'s digital footprint.',
+      'Maintained accurate meeting records and supported internal communications across the leadership team.'
+    ]
+  },
+  {
+    role: 'Growth Director',
+    company: 'Volta',
+    date: 'Present',
+    icon: <Rocket className="text-accent-blue" size={24} />,
+    achievements: [
+      'Spearheaded client acquisition and strategic partnership development, directly expanding Volta\'s market reach and revenue pipeline.'
+    ]
+  },
+  {
+    role: 'Florida State Lead',
+    company: 'Youth Economy Lab',
+    date: 'Present',
+    icon: <Map className="text-accent-teal" size={24} />,
+    achievements: [
+      'Directed statewide operations for Youth Economy Lab in Florida, overseeing student recruitment, partnership building, and program coordination across the state.',
+      'Advanced a mission of youth-led economic education and entrepreneurship by launching and scaling regional initiatives.'
     ]
   },
   {
@@ -39,6 +89,24 @@ const experiences = [
     icon: <Code className="text-accent-blue" size={24} />,
     achievements: [
       'Founded and independently engineered ActiveRecallCoach, a science-backed active recall study platform coded in JavaScript, from concept through deployment.'
+    ]
+  },
+  {
+    role: 'Treasurer',
+    company: 'Stanton College Preparatory School — FBLA',
+    date: 'May 2026 – Present',
+    icon: <Calculator className="text-accent-teal" size={24} />,
+    achievements: [
+      'Oversaw financial planning and budget management for the chapter, ensuring fiscal accountability and resource allocation in support of competitive programming.'
+    ]
+  },
+  {
+    role: 'Varsity Soccer',
+    company: 'Stanton College Preparatory School',
+    date: 'Nov 2025 – Present',
+    icon: <Trophy className="text-accent-blue" size={24} />,
+    achievements: [
+      'Competed at the varsity level, maintaining high academic performance alongside a rigorous athletic training and competition schedule.'
     ]
   }
 ];
