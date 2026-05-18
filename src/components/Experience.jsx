@@ -10,7 +10,8 @@ import {
   Rocket, 
   Map, 
   Calculator, 
-  Trophy 
+  Trophy,
+  TrendingUp
 } from 'lucide-react';
 
 const experiences = [
@@ -22,6 +23,17 @@ const experiences = [
     achievements: [
       'Managed and analyzed a live $15,500+ capital portfolio through systematic performance tracking and risk-focused decision-making.',
       'Conducted institutional-style equity research utilizing valuation models, catalyst identification, and structured investment thesis development.'
+    ]
+  },
+  {
+    role: 'Marketing Team',
+    company: 'USA Economics Olympiad',
+    date: 'May 2026 – Present',
+    icon: <TrendingUp className="text-accent-blue" size={24} />,
+    achievements: [
+      'Identified technical and on-page SEO optimization opportunities, implementing site structure improvements, metadata optimization, and performance enhancements to strengthen search visibility and organic rankings.',
+      'Developed SEO-driven content strategy focused on keyword optimization and search intent alignment, increasing organic visibility for AI-related services and target industries.',
+      'Collaborated with the marketing team to execute data-driven SEO initiatives that strengthened digital presence and drove sustained organic growth.'
     ]
   },
   {
