@@ -3,6 +3,7 @@ import Starfield from './components/Starfield';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Volunteer from './components/Volunteer';
 import Accomplishments from './components/Accomplishments';
 import Contact from './components/Contact';
 
@@ -38,6 +39,7 @@ function App() {
         <Hero />
         <Skills />
         <Experience />
+        <Volunteer />
         <Accomplishments />
         <Contact />
       </main>
